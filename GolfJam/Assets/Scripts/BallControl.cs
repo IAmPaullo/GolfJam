@@ -36,7 +36,7 @@ public class BallControl : MonoBehaviour
         {
             mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector3 dir = transform.position - mousePosition;
-            rbBall.AddForce(new Vector2(dir.x, -dir.y) * ballForce);
+            rbBall.AddForce(new Vector2(dir.x, dir.y) * ballForce);
             ballTap = false;
             ballForce = 0;
         }
