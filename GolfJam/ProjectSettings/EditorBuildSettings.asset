@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/1.unity
+    guid: cdb34845616b57541a11a438c3cdbb81
+  - enabled: 1
+    path: Assets/Scenes/ErickScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/hanninha_moli.unity
+    guid: f5836ab7940c37b4685b6d1d24f63bfd
+  - enabled: 1
+    path: Assets/Scenes/Dialogo1.unity
+    guid: 16776d8c0be10654e955c9b15a0c3f04
   m_configObjects: {}
